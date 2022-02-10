@@ -1,0 +1,115 @@
+{
+    "users": [
+        {
+        "id": 1,
+        "username": "Brad",
+        "password": "PBrad"
+        },
+        {
+        "id": 2,
+        "username": "Tim",
+        "password": "PTim"
+        },
+        {
+        "id": 3,
+        "username": "Bob",
+        "password": "PBob"
+        }
+    ],
+    "poems": [
+        {
+        "id": 1,
+        "title": "Poem #1",
+        "contents": "This is the contents of poem number one",
+        "userId": 1
+        },
+        {
+        "id": 2,
+        "title": "Poem #2",
+        "contents": "This is the contents of poem number two",
+        "userId": 2
+        },
+        {
+            "id": 3,
+            "title": "Poem #3",
+            "contents": "This is the contents of poem number two",
+            "userId": 3
+        },
+        {
+            "id": 4,
+            "title": "Poem #4",
+            "contents": "This is the contents of poem number four",
+            "userId": 1
+        },
+        {
+        "id": 5,
+        "title": "Poem #5",
+        "contents": "This is the contents of poem nuumber five",
+        "userId": 2
+        }
+    ],
+    "comments": [
+        {
+        "id": 1,
+        "comment": "This is comment 1 for poem one",
+        "poemId": 1,
+        "userId": 2
+        },
+        {
+        "id": 2,
+        "comment": "This is comment 1 for poem two",
+        "poemId": 2,
+        "userId": 1
+        },
+        {
+         "id": 3,
+         "comment": "This is comment 2 for poem two",
+         "poemId": 2,
+         "userId": 3
+        },
+        {
+         "id": 4,
+         "comment": "This is comment 2 for poem one",
+         "poemId": 1,
+         "userId": 3
+        },
+        {
+         "id": 5,
+         "comment": "This is comment 1 for poem four",
+         "poemId": 4,
+         "userId": 1
+        }
+    ],
+    "raitings": [
+        {
+         "id": 1,
+         "raiting": -1,
+         "poemId": 1,
+         "userId": 2
+        },
+        {
+         "id": 2,
+         "raiting": 1,
+         "poemId": 2,
+         "userId": 5
+        },
+        {
+         "id": 3,
+         "raiting": 1,
+         "poemId": 3,
+         "userId": 2
+        },
+        {
+         "id": 4,
+         "raiting": -1,
+         "poemId": 4,
+         "userId": 2
+        },
+        {
+         "id": 5,
+         "raiting": 1,
+         "poemId": 4,
+         "userId": 3
+        }
+    ]
+   }
